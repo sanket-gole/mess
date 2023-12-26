@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mess Service</title>
+  <link rel="stylesheet" href="ss.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo-container">
+      <img src="logo.svg" alt="Mess Service Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="banner-section">
+    <h1>Welcome to Mess Service</h1>
+  </section>
+
+  <section id="about" class="data-section">
+    <h2>About Us</h2>
+    <p>We provide delicious tiffin services with a variety of options to meet your dietary preferences.</p>
+  </section>
+
+  <section id="contact" class="data-section">
+    <h2>Contact Us</h2>
+    <form id="order-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="address">Address:</label>
+      <textarea id="address" required></textarea>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+
+      <label for="mobile">Mobile Number:</label>
+      <input type="tel" id="mobile" required>
+
+      <label for="price">Price of Tiffin:</label>
+      <input type="number" id="price" min="0" required>
+
+      <button type="button" onclick="calculateTotalBill()">Calculate Total Bill</button>
+    </form>
+
+    <p>Total Monthly Bill: <span id="total-month-bill">0</span></p>
+  </section>
+
+  <footer>
+    <img src="download.jpeg" alt="Footer Image" >
+  </footer>
+
+  <script src="ss.js"></script>
+</body>
+</html>

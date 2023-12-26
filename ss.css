@@ -1,0 +1,129 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+  }
+  
+  .logo-container {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .logo-container img {
+    max-width: 100px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  section {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .banner-section {
+    text-align: center;
+    color: #333;
+  }
+  
+  .data-section {
+    background-color: #fff;
+  }
+  
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  #total-month-bill {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  footer img {
+    max-width: 100%;
+  }
+   img{
+    padding: 30px;
+    margin: 4px;
+    width: 550px;
+    border: 2p solid black;  @keyframes fadeIn {
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+
+  img {
+      width: 100%; /* Adjust the width of the image as needed */
+      height: auto; /* Maintain aspect ratio */
+      border: 1px solid #ddd; /* Optional: Add a border */
+      border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow */
+      animation: fadeIn 2s ease; /* Apply the animation wit
+    
+  }
